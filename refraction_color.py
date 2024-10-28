@@ -85,8 +85,7 @@ try:
 except:
     pass
 
-
-crit = floor(degrees(asind(radians(ref2)/radians(ref1))))
+crit = floor(degrees(asin(radians(ref2)/radians(ref1))))
 
 if aoi == crit:
     aor = 90
